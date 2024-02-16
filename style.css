@@ -1,21 +1,26 @@
 *{
     padding: 0;
     margin: 0;
+    background-color: #347355;
 }
 .navbar{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    
+    margin-left: 10px;
 }
-.navbar-links{
-    display: flex;
-    /* column-gap: 40px; */
-    
-}
-/* .navbar-links a{
+.navbar a{
     text-decoration: none;
     color: #1D232C;
-} */
+}
+/* .left{
+    display: flex; no need to use flex
+} */ 
+.left > * {
+    margin-right: 30px; 
+}
 
+/* .left > *:last-child {
+    margin-right: 0;
+} */
