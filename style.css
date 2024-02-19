@@ -25,6 +25,15 @@ body{
     background-repeat: no-repeat;
     background-position: center center;
 }
+.about{
+    background-color: #93D94E;
+    color: green;
+    height: 500px;
+}
+img{
+    width: 100px;
+    height: 100px;
+}
 .section{
     display: flex;
     flex-direction: column;
