@@ -113,4 +113,42 @@ img{
 .Learnmore:hover{
     background-color:rgb(120, 184, 108);
 }
-
+.organic{
+    background-color: #63A651;
+    height: 400px;
+    padding: 5% 10%;
+}
+span{
+    display: flex;
+}
+.organic-section{
+    display: flex;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+}
+.organic-title{
+    color: #27682E;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.organic-desc{
+    color: white;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.organic-content{
+    color: #223240;
+    margin-bottom: 10px;
+}
+.organic-learnmore{
+    margin-top: 10px;
+    background-color: #27682E;
+    color: white;
+    border: none;
+    border-radius: 0 12px;
+    height: 1.5rem;
+    width: 100px;
+    font-size: 0.9rem;
+}
