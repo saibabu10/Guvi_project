@@ -151,3 +151,20 @@ span{
     width: 300px; 
     height: auto;
 }
+.product{
+    background-color: #E0FFC1;
+    height: 500px;
+}
+.product-title{
+    padding-top: 5%;
+    color: #223240;
+}
+.product-heading{
+    color: #347355;
+    font-weight: 100;
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+.product-header{
+text-align: center;
+}
