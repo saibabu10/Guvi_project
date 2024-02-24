@@ -116,6 +116,7 @@ span{
 }
 .organic-section{
     display: flex;
+    justify-content: space-around;
 }
 .organic-left{
     display: flex;
@@ -145,50 +146,8 @@ span{
     width: 100px;
     font-size: 0.9rem;
 }
-.organic-right{
-    display: flex;
-    margin-top: 3ch;
-    margin-right: -100px;
-}
-.organic-img1-right{
-    /* width: 200px;
-	height: 200px; */
-	border-radius: 0  150px 50px;
-	background-color: #1f801f;
-	transform: rotate(15deg);
-	/* position: relative; */
-	overflow: hidden;
-    margin-top: 100px;
-    margin-right: -40px;
-}
-.organic-img2-right{
-    width: 200px;
-	height: 200px;
-	border-radius: 0  150px 50px;
-	background-color: #1f801f;
-	transform: rotate(40deg);
-	overflow: hidden;
-}
-.organic-img3-right{
-    width: 200px;
-	height: 200px;
-	border-radius: 0  150px 50px;
-	background-color: hsl(120, 61%, 31%);
-	transform: rotate(100deg);
-	overflow: hidden;
-    margin-top: 100px;
-    margin-right: 40px;
-}
-.organic-img1{
-    height: 200px;
-    width: 200px;
-}
-.organic-img2{
-    height: 200px;
-    width: 200px;
-}
-.organic-img3{
-    height: 200px;
-    width: 200px;
-    transform: rotate(-100deg);
+.organic-right-img {
+    float: right;
+    width: 300px; 
+    height: auto;
 }
