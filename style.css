@@ -120,6 +120,7 @@ span{
 }
 .organic-section{
     display: flex;
+    justify-content: space-around;
 }
 .organic-left{
     display: flex;
@@ -149,50 +150,74 @@ span{
     width: 100px;
     font-size: 0.9rem;
 }
-.organic-right{
+.organic-right-img {
+    float: right;
+    width: 300px; 
+    height: auto;
+}
+.product{
+    background-color: #E0FFC1;
+    height: 100%;
+}
+.product-title{
+    padding-top: 5%;
+    color: #223240;
+}
+.product-heading{
+    color: #347355;
+    font-weight: 100;
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+.product-cards{
+    padding-top: 5%;
+}
+.product-row1,
+.product-row2{
     display: flex;
-    margin-top: 3ch;
-    margin-right: -100px;
+    justify-content: space-around;
+    margin-bottom: 20px;
 }
-.organic-img1-right{
-    /* width: 200px;
-	height: 200px; */
-	border-radius: 0  150px 50px;
-	background-color: #1f801f;
-	transform: rotate(15deg);
-	/* position: relative; */
-	overflow: hidden;
-    margin-top: 100px;
-    margin-right: -40px;
+.product-header{
+text-align: center;
 }
-.organic-img2-right{
-    width: 200px;
-	height: 200px;
-	border-radius: 0  150px 50px;
-	background-color: #1f801f;
-	transform: rotate(40deg);
-	overflow: hidden;
+.product1{
+    background-color: #63A651;
+    width: auto;
+    border-radius: 30px 0%;
 }
-.organic-img3-right{
-    width: 200px;
-	height: 200px;
-	border-radius: 0  150px 50px;
-	background-color: hsl(120, 61%, 31%);
-	transform: rotate(100deg);
-	overflow: hidden;
-    margin-top: 100px;
-    margin-right: 40px;
+.product2{
+    background-color: #D9C723;
+    width: auto;
+    border-radius: 30px 0%;
 }
-.organic-img1{
-    height: 200px;
-    width: 200px;
+.product3{
+    background-color: #93D94E;
+    width: auto;
+    border-radius: 30px 0%;
 }
-.organic-img2{
-    height: 200px;
-    width: 200px;
+.product4{
+    background-color: #93D94E;
+    width: auto;
+    border-radius: 30px 0%;
 }
-.organic-img3{
-    height: 200px;
-    width: 200px;
-    transform: rotate(-100deg);
+.product5{
+    background-color: #63A651;
+    width: auto;
+    border-radius: 30px 0%;
 }
+.product6{
+    background-color: #D9C723;
+    width: auto;
+    border-radius: 30px 0%;
+}
+.product-img1,
+.product-img2,
+.product-img3,
+.product-img4,
+.product-img5,
+.product-img6{
+    margin: 10% 10%;
+    width: 80%;
+}
+
