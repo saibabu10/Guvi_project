@@ -271,3 +271,17 @@ text-align: center;
     font-size: 25px;
     color: #347355;
 }
+.healthy-orangic{
+    height: 500px;
+}
+.healthy-title{
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 10px;
+    font-family: 'Roboto',sans-serif;
+    font-size: 20px;
+    color: #347355;
+}
+.healthy-desc{
+    text-align: center;
+}
