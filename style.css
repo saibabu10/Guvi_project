@@ -280,4 +280,15 @@ text-align: center;
 }
 .healthy-desc{
     text-align: center;
+    font-size: 10px;
+    margin-bottom: 5%;
+}
+.healthy-product-row1,
+.healthy-product-row2{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+}
+.healthy-product img{
+    width: 100px;
 }
