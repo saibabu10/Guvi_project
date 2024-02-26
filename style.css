@@ -340,3 +340,31 @@ text-align: center;
     font-size: 25px;
     color: #347355;
 }
+.review{
+    height: auto;
+    background-color: #93D94E;
+}
+.review-title{
+    color: #27682E;
+    text-align: center;
+    padding: 10px;
+    font-size: 25px;
+}
+.review-content{
+    display: flex;
+    justify-content: space-around;
+    padding: 5%;
+}
+.review-content > div{
+    width: 150px;
+    height: auto;
+    background-color: #223240B8;
+    color: white;
+    border-radius: 0px 15px;
+    text-align: center;
+    padding: 10px;
+}
+#review-author{
+    margin: 10px;
+    float: right;
+}
