@@ -272,7 +272,7 @@ text-align: center;
     color: #347355;
 }
 .healthy-orangic{
-    height: 500px;
+    height: auto;
 }
 .healthy-title{
     text-align: center;
@@ -284,4 +284,91 @@ text-align: center;
 }
 .healthy-desc{
     text-align: center;
+    font-size: 10px;
+    margin-bottom: 5%;
+}
+.healthy-product-row1,
+.healthy-product-row2{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 5% ;
+}
+.healthy-product img{
+    margin-top: -30px;
+    width: 100px;
+}
+.healthy-product-1 div,
+.healthy-product-2 div,
+.healthy-product-3 div,
+.healthy-product-4 div{
+    margin-bottom: 10px;
+}
+.healthy-product-1{
+    text-align: center;
+    background-color: #D9C723;
+    width: 200px;
+}
+.healthy-product-2{
+    text-align: center;
+    background-color: #93D94E;
+    width: 200px;
+}
+.healthy-product-3{
+    text-align: center;
+    background-color: #93D94E;
+    width: 200px;
+}
+.healthy-product-4{
+    text-align: center;
+    background-color:#D9C723;
+    width: 200px;
+}
+.hp-btn1,
+.hp-btn2,
+.hp-btn3,
+.hp-btn4{
+    margin-bottom: 10px;
+    font-size: 10px;
+    border-radius: 12px;
+    width: 70px;
+    height: 25px;
+    border: none;
+    background-color: #223240;
+    color: white;
+}
+.hp-shopMore{
+    font-family: 'Roboto',sans-serif;
+    font-weight: 100;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 25px;
+    color: #347355;
+}
+.review{
+    height: auto;
+    background-color: #93D94E;
+}
+.review-title{
+    color: #27682E;
+    text-align: center;
+    padding: 10px;
+    font-size: 25px;
+}
+.review-content{
+    display: flex;
+    justify-content: space-around;
+    padding: 5%;
+}
+.review-content > div{
+    width: 150px;
+    height: auto;
+    background-color: #223240B8;
+    color: white;
+    border-radius: 0px 15px;
+    text-align: center;
+    padding: 10px;
+}
+#review-author{
+    margin: 10px;
+    float: right;
 }
