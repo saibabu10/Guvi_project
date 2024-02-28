@@ -477,3 +477,89 @@ text-align: center;
 .footer-bar2 div a:hover {
     text-decoration: underline;
 }
+@media screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+    }
+
+    .left > * {
+        margin-right: 0; /* Remove margin for smaller screens */
+    }
+
+    .header,
+    .about {
+        height: 200px; /* Adjusted height for smaller screens */
+    }
+
+    .section {
+        width: 90%; /* Adjusted width for smaller screens */
+        font-size: 30px; /* Adjusted font size for smaller screens */
+    }
+
+    .show-btn {
+        height: 40px; /* Adjusted height for smaller screens */
+        width: 40%; /* Adjusted width for smaller screens */
+    }
+
+    .market {
+        margin-right: 20px; /* Adjusted margin for smaller screens */
+    }
+
+    .tomato {
+        margin-left: 10%; /* Adjusted margin for smaller screens */
+    }
+
+    .product-heading {
+        font-size: 30px; /* Adjusted font size for smaller screens */
+    }
+
+    .product-img1,
+    .product-img2,
+    .product-img3,
+    .product-img4,
+    .product-img5,
+    .product-img6 {
+        width: 60%; /* Adjusted width for smaller screens */
+    }
+
+    .footer-image1 {
+        width: 150px; /* Adjusted width for smaller screens */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .navbar a {
+        font-size: 14px; /* Adjusted font size for smaller screens */
+    }
+
+    .section {
+        font-size: 20px; /* Adjusted font size for smaller screens */
+    }
+
+    .show-btn {
+        height: 30px; /* Adjusted height for smaller screens */
+        width: 50%; /* Adjusted width for smaller screens */
+    }
+
+    .market,
+    .tomato {
+        display: none; /* Hide elements for smaller screens */
+    }
+
+    .product-heading {
+        font-size: 25px; /* Adjusted font size for smaller screens */
+    }
+
+    .product-img1,
+    .product-img2,
+    .product-img3,
+    .product-img4,
+    .product-img5,
+    .product-img6 {
+        width: 70%; /* Adjusted width for smaller screens */
+    }
+
+    .footer-image1 {
+        width: 100px; /* Adjusted width for smaller screens */
+    }
+}
