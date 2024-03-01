@@ -21,6 +21,7 @@ body{
 .header{
     height: 500px;
     background-image: url(../Assets/HomePage.jpg);
+    filter: grayscale(10%);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -372,7 +373,7 @@ text-align: center;
     position: relative;
     width: 100%;
     height: 500px;
-    background-image: url('./Assets/brooke-lark-HlNcigvUi4Q-unsplash.jpg'); /* Specify the path to your image */
+    background-image: url('./Assets/brooke-lark-HlNcigvUi4Q-unsplash.jpg'); 
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -410,20 +411,20 @@ text-align: center;
 .footer-image1 {
     width: 250px;
     position: absolute;
-    top: 0%; /* Adjust as needed */
-    left: 0%; /* Adjust as needed */
+    top: 0%; 
+    left: 0%; 
 }
 
 .footer-image2 {
     position: absolute;
-    top: 50%; /* Adjust as needed */
-    left: 50%; /* Adjust as needed */
+    top: 50%; 
+    left: 50%; 
 }
 
 .footer-image3 {
     position: absolute;
-    top: 95%; /* Adjust as needed */
-    left: 100%; /* Adjust as needed */
+    top: 95%; 
+    left: 100%; 
 }
 .footer-right{
   padding: 3% 10%;
@@ -483,34 +484,34 @@ text-align: center;
     }
 
     .left > * {
-        margin-right: 0; /* Remove margin for smaller screens */
+        margin-right: 0;
     }
 
     .header,
     .about {
-        height: 200px; /* Adjusted height for smaller screens */
+        height: 200px; 
     }
 
     .section {
-        width: 90%; /* Adjusted width for smaller screens */
-        font-size: 30px; /* Adjusted font size for smaller screens */
+        width: 90%; 
+        font-size: 30px; 
     }
 
     .show-btn {
-        height: 40px; /* Adjusted height for smaller screens */
-        width: 40%; /* Adjusted width for smaller screens */
+        height: 40px; 
+        width: 40%; 
     }
 
     .market {
-        margin-right: 20px; /* Adjusted margin for smaller screens */
+        margin-right: 20px; 
     }
 
     .tomato {
-        margin-left: 10%; /* Adjusted margin for smaller screens */
+        margin-left: 10%; 
     }
 
     .product-heading {
-        font-size: 30px; /* Adjusted font size for smaller screens */
+        font-size: 30px; 
     }
 
     .product-img1,
@@ -519,35 +520,35 @@ text-align: center;
     .product-img4,
     .product-img5,
     .product-img6 {
-        width: 60%; /* Adjusted width for smaller screens */
+        width: 60%; 
     }
 
     .footer-image1 {
-        width: 150px; /* Adjusted width for smaller screens */
+        width: 150px; 
     }
 }
 
 @media screen and (max-width: 480px) {
     .navbar a {
-        font-size: 14px; /* Adjusted font size for smaller screens */
+        font-size: 14px; 
     }
 
     .section {
-        font-size: 20px; /* Adjusted font size for smaller screens */
+        font-size: 20px; 
     }
 
     .show-btn {
-        height: 30px; /* Adjusted height for smaller screens */
-        width: 50%; /* Adjusted width for smaller screens */
+        height: 30px; 
+        width: 50%;
     }
 
     .market,
     .tomato {
-        display: none; /* Hide elements for smaller screens */
+        display: none; 
     }
 
     .product-heading {
-        font-size: 25px; /* Adjusted font size for smaller screens */
+        font-size: 25px; 
     }
 
     .product-img1,
@@ -556,10 +557,10 @@ text-align: center;
     .product-img4,
     .product-img5,
     .product-img6 {
-        width: 70%; /* Adjusted width for smaller screens */
+        width: 70%;
     }
 
     .footer-image1 {
-        width: 100px; /* Adjusted width for smaller screens */
+        width: 100px; 
     }
 }
