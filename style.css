@@ -3,7 +3,6 @@ body{
     margin: 0px;
 }
 .navbar{
-
     display: flex;
     justify-content: space-between;
     padding: 20px;
@@ -11,13 +10,42 @@ body{
 }
 .navbar a{
     text-decoration: none;
-    color: #60BF81    ;
+    color: black   ;
     font-weight: bolder;
-    background-color: #000;
 }
 .navbar-right > * {
     display: inline-block;
     margin-right: 30px; 
+}
+.navbar-left{
+    cursor: pointer;
+}
+.header-cart-icon{
+    width: 20px;
+    background-color: black;
+}
+.HamburgerMenu {
+    display: none;
+}
+@media screen and (max-width: 767px) {
+    .header{
+        height: 100px;
+    }
+    .HamburgerMenu {
+        display: flex;
+        flex-direction: column;
+        cursor: pointer;
+    }
+    .line {
+        height: 3px;
+        width: 30px;
+        margin: 1px;
+        border-radius: 5px;
+        background-color: #000;
+    }
+    .navbar-right {
+        display: none;
+    }
 }
 .header{
     background-image: url(/Assets/HeaderImage.png);
@@ -28,12 +56,6 @@ body{
     width: 100%;
     height: 500px;
 }
-
-/* .about{
-    background-color: #93D94E;
-    color: green;
-    height: 500px;
-} */
 
 .section{
     display: flex;
@@ -491,89 +513,8 @@ text-align: center;
 .footer-bar2 div a:hover {
     text-decoration: underline;
 }
-@media screen and (max-width: 768px) {
-    .navbar {
-        flex-direction: column;
-    }
-
-    .left > * {
-        margin-right: 0;
-    }
-
-    .header,
-    .about {
-        height: 200px; 
-    }
-
-    .section {
-        width: 90%; 
-        font-size: 30px; 
-    }
-
-    .show-btn {
-        height: 40px; 
-        width: 40%; 
-    }
-
-    .market {
-        margin-right: 20px; 
-    }
-
-    .tomato {
-        margin-left: 10%; 
-    }
-
-    .product-heading {
-        font-size: 30px; 
-    }
-
-    .product-img1,
-    .product-img2,
-    .product-img3,
-    .product-img4,
-    .product-img5,
-    .product-img6 {
-        width: 60%; 
-    }
-
-    .footer-image1 {
-        width: 150px; 
-    }
-}
-
-@media screen and (max-width: 480px) {
-    .navbar a {
-        font-size: 14px; 
-    }
-
-    .section {
-        font-size: 20px; 
-    }
-
-    .show-btn {
-        height: 30px; 
-        width: 50%;
-    }
-
-    .market,
-    .tomato {
-        display: none; 
-    }
-
-    .product-heading {
-        font-size: 25px; 
-    }
-
-    .product-img1,
-    .product-img2,
-    .product-img3,
-    .product-img4,
-    .product-img5,
-    .product-img6 {
-        width: 70%;
-    }
-
-    .footer-image1 {
-        width: 100px; 
+@media screen and (max-width:400px){
+    .header{
+        height: 100px;
     }
 }
