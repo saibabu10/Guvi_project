@@ -24,9 +24,39 @@ body{
     width: 20px;
     background-color: black;
 }
+
+.hb-close {
+    display: none;
+    cursor: pointer;
+    position: relative;
+    width: 30px;
+    height: 30px;
+}
+
+.hb-close::before,
+.hb-close::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 2px;
+    height: 100%;
+    background-color: black;
+}
+
+.hb-close::before {
+    transform: translateX(-50%) rotate(45deg);
+}
+
+.hb-close::after {
+    transform: translateX(-50%) rotate(-45deg);
+}
+
+
 .HamburgerMenu {
     display: none;
 }
+
 @media screen and (max-width: 767px) {
     .header{
         height: 100px;
@@ -46,6 +76,15 @@ body{
     .navbar-right {
         display: none;
     }
+    .show
+    {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    /* .hb-close{
+        display: none;
+    } */
 }
 .header{
     background-image: url(/Assets/HeaderImage.png);
