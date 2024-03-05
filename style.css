@@ -56,7 +56,7 @@ body{
 .HamburgerMenu {
     display: none;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 830px) {
     .header {
         height: 100px;
     }
@@ -84,21 +84,30 @@ body{
     .tomato{
         display: none;
     }
-    /* .content{
-              background-image: url('./Assets/market.jpg');
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;   
-    } */
     .content span{
+        display: flex;
+        justify-content: center;
         font-size: 25px;
-        /* background-image: url('./Assets/market.jpg');
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat; */
     }
     .content-title{
+        font-size:80%;
         margin-top: 60px;
+    }
+    .content-display{
+        width: 400px;
+        background-image: url(./Assets/mobileImage.jpeg);
+        background-size: cover;
+        background-position: center; 
+        background-repeat: no-repeat; 
+    }
+    .Learnmore{
+        margin-bottom: 10px;
+    }
+    .product-cards{
+        padding: 10%;
+    }
+    .product-description{
+        font-size: 10px;
     }
 }
 
@@ -179,7 +188,6 @@ body{
     word-spacing:5px;
 }
 .content-title{
-    font-size: 15px;
     padding: 5% 0%;
 }
 .Learnmore{
@@ -258,20 +266,20 @@ span{
 .product-cards{
     padding-top: 5%;
 }
-.product-row1,
-.product-row2{
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 20px;
-}
+.product-row {
+    padding: 10%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));    
+    gap: 40px;
+  }
 .product-header{
 text-align: center;
 }
 #btn{
-    font-size: 10px;
-    border-radius: 12px;
-    width: 70px;
-    height: 25px;
+    font-size: 15px;
+    border-radius: 15px;
+    width: 90px;
+    height: 35px;
     float: right;
     border: none;
     background-color: #223240;
@@ -297,7 +305,7 @@ text-align: center;
 .product1{
     background-color: #63A651;
     width: auto;
-    padding: 10px;
+    padding: 20px;
     border-radius: 30px 0%;
 
 }
@@ -353,8 +361,8 @@ text-align: center;
     font-family: 'Roboto',sans-serif;
     font-weight: 100;
     text-align: center;
-    margin-bottom: 20px;
-    font-size: 25px;
+    padding-bottom: 5%;
+    font-size: 35px;
     color: #347355;
 }
 .healthy-orangic{
@@ -566,9 +574,4 @@ text-align: center;
 
 .footer-bar2 div a:hover {
     text-decoration: underline;
-}
-@media screen and (max-width:400px){
-    .header{
-        height: 100px;
-    }
 }
