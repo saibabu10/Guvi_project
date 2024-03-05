@@ -103,9 +103,11 @@ body{
     .Learnmore{
         margin-bottom: 10px;
     }
-    .product-row1{
-        display: grid;
-        grid-template-columns:repeat(1fr,10px);
+    .product-cards{
+        padding: 10%;
+    }
+    .product-description{
+        font-size: 10px;
     }
 }
 
@@ -263,15 +265,9 @@ span{
 .product-row {
     padding: 10%;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));    
     gap: 40px;
   }
-/* .product-row1,
-.product-row2{
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 20px;
-} */
 .product-header{
 text-align: center;
 }
@@ -574,9 +570,4 @@ text-align: center;
 
 .footer-bar2 div a:hover {
     text-decoration: underline;
-}
-@media screen and (max-width:400px){
-    .header{
-        height: 100px;
-    }
 }
