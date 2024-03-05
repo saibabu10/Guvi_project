@@ -118,8 +118,11 @@ body{
     .organic-content{
         font-size: 17px;
     }
+   .healthy-desc div{
+    font-size: 10px;
+    }
     .healthy-desc{
-        color: white;
+        padding-bottom: 20px;
     }
 }
 
@@ -393,11 +396,11 @@ text-align: center;
     font-size: 1rem;
     margin-bottom: 5%;
 }
-.healthy-product-row1,
-.healthy-product-row2{
-    display: flex;
-    justify-content: space-evenly;
-    margin-bottom: 5% ;
+.healthy-product-row1
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap:30px
 }
 .healthy-product img{
     margin-top: -30px;
