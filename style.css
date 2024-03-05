@@ -109,6 +109,15 @@ body{
     .product-description{
         font-size: 10px;
     }
+    .organic-title{
+        text-align: center;
+    }
+    .organic-right{
+        display: none;
+    }
+    .organic-content{
+        font-size: 17px;
+    }
 }
 
 .header{
@@ -236,9 +245,9 @@ span{
     color: white;
     border: none;
     border-radius: 0 20px;
-    height: 1.5rem;
-    width: 25%;
-    font-size: 0.9rem;
+    height: 30px;
+    width: 40%;
+    font-size: 15px;
 }
 .organic-right-img {
     float: right;
