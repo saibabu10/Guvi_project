@@ -118,6 +118,9 @@ body{
     .organic-content{
         font-size: 17px;
     }
+    .healthy-desc{
+        color: white;
+    }
 }
 
 .header{
@@ -370,11 +373,12 @@ text-align: center;
     font-size: 35px;
     color: #347355;
 }
-.healthy-orangic{
+.healthy-organic{
     height: auto;
     background-color: #E0FFC1;
+    padding: 3%;
 }
-.healthy-orangic-section{
+.healthy-organic-section{
     padding: 5%;
 }
 .healthy-title{
@@ -386,7 +390,7 @@ text-align: center;
 }
 .healthy-desc{
     text-align: center;
-    font-size: 15px;
+    font-size: 1rem;
     margin-bottom: 5%;
 }
 .healthy-product-row1,
