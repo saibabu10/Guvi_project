@@ -103,6 +103,10 @@ body{
     .Learnmore{
         margin-bottom: 10px;
     }
+    .product-row1{
+        display: grid;
+        grid-template-columns:repeat(1fr,10px);
+    }
 }
 
 .header{
@@ -182,7 +186,6 @@ body{
     word-spacing:5px;
 }
 .content-title{
-    /* font-size: 15px; */
     padding: 5% 0%;
 }
 .Learnmore{
@@ -257,12 +260,18 @@ span{
 .product-cards{
     padding-top: 5%;
 }
-.product-row1,
+.product-row {
+    padding: 10%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+/* .product-row1,
 .product-row2{
     display: flex;
     justify-content: space-around;
     margin-bottom: 20px;
-}
+} */
 .product-header{
 text-align: center;
 }
