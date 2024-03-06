@@ -94,6 +94,7 @@ body{
         margin-top: 60px;
     }
     .content-display{
+        margin-left: 50px;
         width: 400px;
         background-image: url(./Assets/mobileImage.jpeg);
         background-size: cover;
@@ -108,6 +109,21 @@ body{
     }
     .product-description{
         font-size: 10px;
+    }
+    .organic-title{
+        text-align: center;
+    }
+    .organic-right{
+        display: none;
+    }
+    .organic-content{
+        font-size: 17px;
+    }
+   .healthy-desc div{
+    font-size: 10px;
+    }
+    .healthy-desc{
+        padding-bottom: 20px;
     }
 }
 
@@ -240,9 +256,9 @@ span{
     color: white;
     border: none;
     border-radius: 0 20px;
-    height: 1.5rem;
-    width: 25%;
-    font-size: 0.9rem;
+    height: 30px;
+    width: 40%;
+    font-size: 15px;
 }
 .organic-right-img {
     float: right;
@@ -365,27 +381,31 @@ text-align: center;
     font-size: 35px;
     color: #347355;
 }
-.healthy-orangic{
+.healthy-organic{
     height: auto;
+    background-color: #E0FFC1;
+    padding: 3%;
+}
+.healthy-organic-section{
+    padding: 5%;
 }
 .healthy-title{
     text-align: center;
-    margin-top: 5%;
-    margin-bottom: 10px;
     font-family: 'Roboto',sans-serif;
-    font-size: 20px;
+    font-size: 25px;
+    padding-bottom: 1%;
     color: #347355;
 }
 .healthy-desc{
     text-align: center;
-    font-size: 10px;
+    font-size: 1rem;
     margin-bottom: 5%;
 }
-.healthy-product-row1,
-.healthy-product-row2{
-    display: flex;
-    justify-content: space-evenly;
-    margin-bottom: 5% ;
+.healthy-product-row1
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap:30px
 }
 .healthy-product img{
     margin-top: -30px;
