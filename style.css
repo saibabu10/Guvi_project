@@ -105,6 +105,16 @@ body{
     .Learnmore{
         margin-bottom: 10px;
     }
+    .hp-name1,
+    .hp-name2,
+    .hp-name3,
+    .hp-name4,
+    .hp-price1,
+    .hp-price2,
+    .hp-price3,
+    .hp-price4{
+        font-size: 10px;
+    }
     .product-cards{
         padding: 10%;
     }
@@ -198,7 +208,6 @@ body{
 }
 .content{
     margin-top: 20px;
-    /* margin-right: 100px; */
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
