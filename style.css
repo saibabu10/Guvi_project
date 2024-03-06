@@ -57,9 +57,6 @@ body{
     display: none;
 }
 @media screen and (max-width: 830px) {
-    /* .header {
-        height: 500px;
-    } */
     .HamburgerMenu {
         display: flex;
         flex-direction: column;
@@ -161,8 +158,6 @@ body{
     background-color: #93D94E;
     color: #000;
     border-radius: 50px;
-    height: 10%;
-    width: 19%;
     border: none;
     padding: 10px;
     cursor: pointer;
