@@ -57,9 +57,6 @@ body{
     display: none;
 }
 @media screen and (max-width: 830px) {
-    .header {
-        height: 100px;
-    }
     .HamburgerMenu {
         display: flex;
         flex-direction: column;
@@ -89,12 +86,16 @@ body{
         justify-content: center;
         font-size: 25px;
     }
+    .about{
+        font-weight: bold;
+    }
     .content-title{
         font-size:80%;
         margin-top: 60px;
     }
     .content-display{
         margin-left: 50px;
+        margin-right: 50px;
         width: 400px;
         background-image: url(./Assets/mobileImage.jpeg);
         background-size: cover;
@@ -103,6 +104,16 @@ body{
     }
     .Learnmore{
         margin-bottom: 10px;
+    }
+    .hp-name1,
+    .hp-name2,
+    .hp-name3,
+    .hp-name4,
+    .hp-price1,
+    .hp-price2,
+    .hp-price3,
+    .hp-price4{
+        font-size: 10px;
     }
     .product-cards{
         padding: 10%;
@@ -124,6 +135,12 @@ body{
     }
     .healthy-desc{
         padding-bottom: 20px;
+    }
+    .healthy-product{
+        margin: 20%;
+    }
+    .hp-shopMore{
+        display: none;
     }
 }
 
@@ -151,8 +168,6 @@ body{
     background-color: #93D94E;
     color: #000;
     border-radius: 50px;
-    height: 10%;
-    width: 19%;
     border: none;
     padding: 10px;
     cursor: pointer;
@@ -193,10 +208,9 @@ body{
 }
 .content{
     margin-top: 20px;
-    margin-right: 100px;
     display: flex;
     align-items: flex-start;
-    justify-content: center;
+    justify-content: space-between;
     flex-direction: column;
     padding: auto;
     text-align: center;
@@ -214,11 +228,6 @@ body{
     border-radius: 20px/50%;
     border: 0;
     justify-content: center;
-    margin-top: 10px;
-    cursor:pointer
-}
-.Learnmore:hover{
-    background-color:rgb(120, 184, 108);
 }
 .organic{
     background-color: #63A651;
@@ -251,6 +260,7 @@ span{
     margin-bottom: 10px;
 }
 .organic-learnmore{
+    cursor: pointer;
     margin-top: 10px;
     background-color: #27682E;
     color: white;
@@ -300,6 +310,7 @@ text-align: center;
     border: none;
     background-color: #223240;
     color: white;
+    cursor: pointer;
 }
 
 .product1 > button,
@@ -379,6 +390,7 @@ text-align: center;
     text-align: center;
     padding-bottom: 5%;
     font-size: 35px;
+    cursor: pointer;
     color: #347355;
 }
 .healthy-organic{
@@ -401,11 +413,14 @@ text-align: center;
     font-size: 1rem;
     margin-bottom: 5%;
 }
-.healthy-product-row1
-{
+.healthy-product{
+   display: flex;
+   justify-content: center;
+}
+.healthy-product-row1{
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap:30px
+    grid-template-columns: repeat(2,1fr);
+    gap:10%;
 }
 .healthy-product img{
     margin-top: -30px;
@@ -441,6 +456,7 @@ text-align: center;
 .hp-btn2,
 .hp-btn3,
 .hp-btn4{
+    cursor: pointer;
     margin-bottom: 10px;
     font-size: 10px;
     border-radius: 12px;
@@ -451,6 +467,7 @@ text-align: center;
     color: white;
 }
 .hp-shopMore{
+    margin-top: 10%;
     font-family: 'Roboto',sans-serif;
     font-weight: 100;
     text-align: center;
@@ -459,6 +476,7 @@ text-align: center;
     color: #347355;
 }
 .review{
+    margin: 0;
     height: auto;
     background-color: #93D94E;
 }
@@ -546,6 +564,9 @@ text-align: center;
 .footer-right{
   padding: 3% 10%;
   align-self: center;
+}
+.footer-right img{
+    cursor: pointer;
 }
 .footer-download{
     color: #27682E;
