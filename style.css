@@ -94,6 +94,7 @@ body{
         margin-top: 60px;
     }
     .content-display{
+        margin-left: 50px;
         width: 400px;
         background-image: url(./Assets/mobileImage.jpeg);
         background-size: cover;
