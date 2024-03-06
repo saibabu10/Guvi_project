@@ -1,5 +1,5 @@
 body{
-    padding: 0;
+    padding: 0px;
     margin: 0px;
 }
 .navbar{
@@ -142,6 +142,30 @@ body{
     .hp-shopMore{
         display: none;
     }
+    .review-section{
+        padding: 20px;
+    }
+    .review-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .review-content > div{
+        width: 1%;
+        font-size: 10px;
+        background-color: #223240B8;
+        color: white;
+        border-radius: 0px 35px;
+        text-align: center;
+        padding: 20px;
+    }
+    .review-content div{
+        margin-bottom: 10%;
+    }
+    .componentIcon{
+      display: none;
+    }
+
 }
 
 .header{
@@ -223,7 +247,7 @@ body{
 .Learnmore{
     background-color: rgb(74, 147, 74);
     color: white;
-    width: 110px;
+   width : 110px;
     height: 40px;
     border-radius: 20px/50%;
     border: 0;
@@ -474,6 +498,7 @@ text-align: center;
     margin-bottom: 20px;
     font-size: 25px;
     color: #347355;
+    cursor: pointer;
 }
 .review{
     margin: 0;
@@ -483,7 +508,7 @@ text-align: center;
 .review-title{
     color: #27682E;
     text-align: center;
-    padding: 10px;
+    padding: 3%;
     font-size: 25px;
 }
 .review-content{
@@ -491,14 +516,19 @@ text-align: center;
     justify-content: space-around;
     padding: 5%;
 }
+.componentIcon{
+    width: 100px;
+    height: 100px;
+    margin-left: 50%;
+}
 .review-content > div{
-    width: 150px;
+    width: 12%;
     height: auto;
     background-color: #223240B8;
     color: white;
-    border-radius: 0px 15px;
+    border-radius: 0px 35px;
     text-align: center;
-    padding: 10px;
+    padding: 20px;
 }
 #review-author{
     margin: 10px;
