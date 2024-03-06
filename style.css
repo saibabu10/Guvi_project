@@ -57,9 +57,9 @@ body{
     display: none;
 }
 @media screen and (max-width: 830px) {
-    .header {
-        height: 100px;
-    }
+    /* .header {
+        height: 500px;
+    } */
     .HamburgerMenu {
         display: flex;
         flex-direction: column;
