@@ -219,7 +219,8 @@ body{
     border-radius: 20px/50%;
     border: 0;
     justify-content: center;
-    margin-top: 10px;    
+    margin-top: 10px;   
+    cursor: pointer; 
 }
 .organic{
     background-color: #63A651;
@@ -252,6 +253,7 @@ span{
     margin-bottom: 10px;
 }
 .organic-learnmore{
+    cursor: pointer;
     margin-top: 10px;
     background-color: #27682E;
     color: white;
@@ -301,6 +303,7 @@ text-align: center;
     border: none;
     background-color: #223240;
     color: white;
+    cursor: pointer;
 }
 
 .product1 > button,
@@ -380,6 +383,7 @@ text-align: center;
     text-align: center;
     padding-bottom: 5%;
     font-size: 35px;
+    cursor: pointer;
     color: #347355;
 }
 .healthy-organic{
@@ -445,6 +449,7 @@ text-align: center;
 .hp-btn2,
 .hp-btn3,
 .hp-btn4{
+    cursor: pointer;
     margin-bottom: 10px;
     font-size: 10px;
     border-radius: 12px;
@@ -552,6 +557,9 @@ text-align: center;
 .footer-right{
   padding: 3% 10%;
   align-self: center;
+}
+.footer-right img{
+    cursor: pointer;
 }
 .footer-download{
     color: #27682E;
