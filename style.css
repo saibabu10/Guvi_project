@@ -129,6 +129,12 @@ body{
     .healthy-desc{
         padding-bottom: 20px;
     }
+    .healthy-product{
+        margin: 20%;
+    }
+    .hp-shopMore{
+        display: none;
+    }
 }
 
 .header{
@@ -401,11 +407,14 @@ text-align: center;
     font-size: 1rem;
     margin-bottom: 5%;
 }
-.healthy-product-row1
-{
+.healthy-product{
+   display: flex;
+   justify-content: center;
+}
+.healthy-product-row1{
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap:30px
+    grid-template-columns: repeat(2,1fr);
+    gap:10%;
 }
 .healthy-product img{
     margin-top: -30px;
@@ -451,6 +460,7 @@ text-align: center;
     color: white;
 }
 .hp-shopMore{
+    margin-top: 10%;
     font-family: 'Roboto',sans-serif;
     font-weight: 100;
     text-align: center;
@@ -459,6 +469,7 @@ text-align: center;
     color: #347355;
 }
 .review{
+    margin: 0;
     height: auto;
     background-color: #93D94E;
 }
