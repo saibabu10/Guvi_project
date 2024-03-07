@@ -58,7 +58,7 @@ body{
 }
 @media screen and (max-width: 830px) {
     body{
-        width:500px
+        width:100%;
     }
     .HamburgerMenu {
         display: flex;
@@ -152,15 +152,12 @@ body{
         display: flex;
         flex-direction: column;
         align-items: center;
+    } 
+    .review-content{
+        width: auto;
     }
-    .review-content > div{
-        width: 1%;
-        font-size: 10px;
-        background-color: #223240B8;
-        color: white;
-        border-radius: 0px 35px;
-        text-align: center;
-        padding: 20px;
+    .review-author{
+        display: none;
     }
     .review-content div{
         margin-bottom: 10%;
@@ -517,14 +514,16 @@ text-align: center;
 .review-content{
     display: flex;
     justify-content: space-around;
-    padding: 5%;
+    padding: 5%; 
 }
 .componentIcon{
     width: 100px;
     height: 100px;
     margin-left: 50%;
 }
-.review-content > div{
+ .review-1,
+ .review-2,
+ .review-3{
     width: 12%;
     height: auto;
     background-color: #223240B8;
@@ -532,7 +531,7 @@ text-align: center;
     border-radius: 0px 35px;
     text-align: center;
     padding: 20px;
-}
+} 
 #review-author{
     margin: 10px;
     float: right;
