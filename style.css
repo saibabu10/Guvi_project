@@ -58,7 +58,7 @@ body{
 }
 @media screen and (max-width: 830px) {
     body{
-        width:100%;
+        width:fit-content
     }
     .HamburgerMenu {
         display: flex;
