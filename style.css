@@ -22,7 +22,6 @@ body{
 }
 .header-cart-icon{
     width: 20px;
-    background-color: black;
 }
 
 .hb-close {
@@ -59,6 +58,9 @@ body{
 @media screen and (max-width: 830px) {
     body{
         width:fit-content
+    }
+    .header{
+
     }
     .HamburgerMenu {
         display: flex;
@@ -183,9 +185,13 @@ body{
     }
     .footer-bar2{
         display: flex;
-        
         flex-direction: column;
     }
+    .product-row {
+        width: 1%;
+        display: flex;
+        margin-left: 15%;
+      }
 }
 
 .header{
@@ -615,7 +621,7 @@ text-align: center;
     left: 100%; 
 }
 .footer-right{
-  padding: 3% 10%;
+  padding: 3% 10%; 
   align-self: center;
 }
 .footer-right img{
@@ -623,6 +629,9 @@ text-align: center;
 }
 .footer-download{
     color: #27682E;
+}
+.downloadImg{
+    width: 0px;
 }
 .footer-right  img{
     width: 150px;
@@ -659,8 +668,7 @@ text-align: center;
 .footer-bar2 {
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
-    
+    justify-content: flex-end;   
 }
 
 .footer-bar2 div a {
