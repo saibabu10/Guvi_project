@@ -188,6 +188,11 @@ body{
         display: flex;
         flex-direction: column;
     }
+    .product-row {
+        width: 5%;
+        display: flex;
+        margin-left: 15%;
+      }
 }
 
 .header{
