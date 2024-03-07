@@ -22,7 +22,6 @@ body{
 }
 .header-cart-icon{
     width: 20px;
-    background-color: black;
 }
 
 .hb-close {
@@ -189,7 +188,7 @@ body{
         flex-direction: column;
     }
     .product-row {
-        width: 5%;
+        width: 1%;
         display: flex;
         margin-left: 15%;
       }
