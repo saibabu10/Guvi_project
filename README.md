@@ -1,6 +1,7 @@
-*This project is just a UI design for a Hackathon which is conducted in GUVI. The website holds the healthy and organic products which are sold <br>
-*I have took the UI from my friend's figma design and used my one creativity for styling <br>
-*This link re-directs to the figma design page <br>
+*This project is just a UI design for a Hackathon which is conducted in GUVI. The website holds the healthy and organic products which are sold.<br>
+*I have took the UI from my friend's figma design and used my one creativity for styling.<br>
+*This link re-directs to the figma design page.<br>
+*This project is successfully done by bhavanipandian1511 and saibabu10.
 https://www.figma.com/file/bcEAf8amzQVPiU1tOX8vDP/GUVI-Project?type=design&node-id=13-109&mode=design&t=sDbkiVZZbzS9gPYZ-0 <br>
 *I also hosted the webpage in vercel with both mobile and pc version supported <br>
 https://guvi-project.vercel.app<br>
