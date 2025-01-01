@@ -387,14 +387,14 @@ text-align: center;
 .product6{
     box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.5);
 }
-.product1:hover,
+/* .product1:hover,
 .product2:hover,
 .product3:hover,
 .product4:hover,
 .product5:hover,
 .product6:hover{
     box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.9);
-}
+} */
 .product1{
     background-color: #63A651;
     float: left;
@@ -499,12 +499,12 @@ text-align: center;
 .healthy-product-4 div{
     margin-bottom: 10px;
 }
-.healthy-product-1,
+/* .healthy-product-1,
 .healthy-product-2,
 .healthy-product-3,
 .healthy-product-4{
  box-shadow: 10px 10px 10px rgba(0, 0, 0, 1);
-}
+} */
 .healthy-product-1{
     text-align: center;
     background-color: #D9C723;
