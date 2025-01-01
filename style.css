@@ -387,14 +387,14 @@ text-align: center;
 .product6{
     box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.5);
 }
-/* .product1:hover,
+.product1:hover,
 .product2:hover,
 .product3:hover,
 .product4:hover,
 .product5:hover,
 .product6:hover{
     box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.9);
-} */
+}
 .product1{
     background-color: #63A651;
     float: left;
